@@ -6,6 +6,7 @@
   "outputDirectory": "client/dist",
   "functions": {
     "api/**/*.js": {
+      "includeFiles": "server/node_modules/@napi-rs/**/*",
       "maxDuration": 300
     }
   }
